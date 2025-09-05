@@ -123,7 +123,7 @@
         <div class="kpis">
           <div class="kpi"><div class="num" id="countdown">—</div><small>Cuenta regresiva al inicio</small></div>
           <div class="kpi"><div class="num">350</div><small>Participantes con discapacidad</small></div>
-          <div class="kpi"><div class="num">5</div><small>Disciplinas paralímpicas</small></div>
+          <div class="kpi"><div class="num">5</div><small>Disciplinas límpicas</small></div>
         </div>
       </div>
     </section>
@@ -145,7 +145,7 @@
 
     <!-- Disciplinas -->
     <section id="disciplinas" class="section">
-      <h2>Disciplinas paralímpicas</h2>
+      <h2>Disciplinas</h2>
       <div class="chips" id="disciplineChips"></div>
       <div class="cards cols-5" id="disciplineCards"></div>
     </section>
