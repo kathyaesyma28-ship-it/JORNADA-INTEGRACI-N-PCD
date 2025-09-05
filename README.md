@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>III Jornada de Integración Social, Laboral y Deportiva – EsSalud 2025</title>
-  <meta name="description" content="Guía interactiva para la III Jornada de Integración Social, Laboral y Deportiva de las Personas con Discapacidad – EsSalud 2025" />
+  <meta name="description" content="Guía interactiva  la III Jornada de Integración Social, Laboral y Deportiva de las Personas con Discapacidad – EsSalud 2025" />
   <style>
     :root{
       /* Paleta EsSalud */
@@ -214,7 +214,7 @@
         </svg>
         <div class="legend">Av. del Aire S/N – San Luis</div>
       </div>
-      <p class="muted">Consejo: guarda esta página en tu móvil para consulta rápida durante la jornada.</p>
+      <p class="muted">Consejo: guarda esta página en tu móvil  consulta rápida durante la jornada.</p>
     </section>
 
     <!-- QR de acceso/encuesta -->
@@ -222,7 +222,7 @@
       <h2>QR de acceso / encuesta</h2>
       <div class="grid cols-2">
         <div class="card">
-          <p>Escanea el código para abrir el sitio/encuesta del evento en tu teléfono.</p>
+          <p>Escanea el código  abrir el sitio/encuesta del evento en tu teléfono.</p>
           <p class="muted"><strong>URL:</strong> <span id="qrUrlText">https://essalud.gob.pe/jornada2025</span></p>
           <p class="muted">Puedes reemplazar esta URL por la de tu formulario o transmisión en vivo.</p>
         </div>
@@ -233,7 +233,7 @@
     </section>
 
     <section class="footer">
-      <small>Guía interactiva no oficial para uso interno del evento.</small>
+      <small>Guía interactiva no oficial  uso interno del evento.</small>
     </section>
   </main>
 
@@ -265,7 +265,7 @@
     const day2 = [
       { time: '08:00', title: 'Programa deportivo', details: 'Competencias en Polideportivo 1' },
       { time: '08:00 – 12:30', title: 'Disciplinas', details: 'Baloncesto en silla de ruedas, Vóley sentado, Tenis de mesa, Goalball, Boccia (BC1–BC4)' },
-      { time: '12:30 – 13:30', title: 'Almuerzo', details: 'Para todos los deportistas presentes' },
+      { time: '12:30 – 13:30', title: 'Almuerzo', details: ' todos los deportistas presentes' },
       { time: '14:00', title: 'Finales', details: 'Competencias (finales)' },
       { time: '17:00', title: 'Clausura', details: 'Entrega de trofeos y medallas; Palabras de clausura (Dra. Tania Rodas); Fin de fiesta' },
       { time: '19:00', title: 'Desplazamiento', details: 'Salida de delegaciones visitantes' },
