@@ -123,7 +123,7 @@
         <div class="kpis">
           <div class="kpi"><div class="num" id="countdown">—</div><small>Cuenta regresiva al inicio</small></div>
           <div class="kpi"><div class="num">350</div><small>Participantes con discapacidad</small></div>
-          <div class="kpi"><div class="num">5</div><small>Disciplinas límpicas</small></div>
+          <div class="kpi"><div class="num">5</div><small>Disciplinas olímpi</small></div>
         </div>
       </div>
     </section>
@@ -405,12 +405,12 @@
     // Search
     const q = document.getElementById('q');
     function runSearch(){
-      const term = q.value.trim().toLowerCase();
+      const term = q.value.trim().toLowere();
       document.querySelectorAll('.tl-card, .author, #disciplineCards .card, #keyMsgs li').forEach(el=>{
         el.parentElement.style.display = '';
       });
       if(!term) return;
-      const match = el => (el.textContent || '').toLowerCase().includes(term);
+      const match = el => (el.textContent || '').toLowere().includes(term);
       document.querySelectorAll('.tl-card').forEach(el=>{ el.parentElement.style.display = match(el)?'grid':'none'; });
       document.querySelectorAll('.author').forEach(el=>{ el.parentElement.style.display = match(el)?'block':'none'; });
       document.querySelectorAll('#disciplineCards .card').forEach(el=>{ el.style.display = match(el)?'block':'none'; });
